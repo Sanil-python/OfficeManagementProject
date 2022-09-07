@@ -14,7 +14,6 @@ def all_emp(request):
     # print(context)
     return render(request,'all_emp.html',context)
 
-
 def add_emp(request):
     if request.method == "POST":
         first_name = request.POST['first_name']
